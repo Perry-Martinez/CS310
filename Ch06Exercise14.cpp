@@ -39,6 +39,7 @@ int main(){
     }
     std::cout<<"The total billing amount is $"<<getBillingAmount(hourlyRate,consultingTime,lowIncome)<<std::endl;
 
+    return 0;
 }
 
 //  function that takes the hourly rate, consulting time and whether the user is classified as low income, then it returns the total billing amount
